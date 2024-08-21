@@ -1,0 +1,15 @@
+body{
+    display: grid;
+    place-content:center;
+    min-height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    background:#eee;
+}
+
+main { 
+    background: url('./cel.png') no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 640px;
+}
